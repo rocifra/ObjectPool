@@ -46,10 +46,6 @@ export class ObjectPool2<T>
         return element
     }
 
-    /***********************************
-     * PUBLIC API 
-     */
-
     public expandPool(amount: number): void
     {
         for (var i: number = 0; i < amount; i++)
